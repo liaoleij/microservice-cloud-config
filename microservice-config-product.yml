@@ -41,7 +41,7 @@ eureka:
     preferIpAddress: true #访问路径可以显示IP地址
 ---
 emp:
-  name: 李四
+  name: 李四王五
 server:
   port: 8001
 mybatis:
@@ -51,7 +51,7 @@ mybatis:
 spring:
   profiles: prod
   application:
-    name: microservice-product-config1111 #这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name
+    name: microservice-product-config-bus #这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql驱动包
