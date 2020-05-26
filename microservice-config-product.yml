@@ -51,7 +51,7 @@ mybatis:
 spring:
   profiles: prod
   application:
-    name: microservice-product-config-bus #这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name
+    name: microservice-product #这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql驱动包
