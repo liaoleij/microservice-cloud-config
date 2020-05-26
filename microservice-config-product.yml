@@ -41,7 +41,7 @@ eureka:
     preferIpAddress: true #访问路径可以显示IP地址
 ---
 emp:
-  name: 李四五
+  name: 李四五123
 server:
   port: 8001
 mybatis:
